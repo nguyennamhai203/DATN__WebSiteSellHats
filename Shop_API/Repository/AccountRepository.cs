@@ -76,11 +76,11 @@ namespace Shop_API.Repository
             if (result.Succeeded)
             {
                 // kiểm tra role KhachHang đã có
-                if (!await _roleManager.RoleExistsAsync(AppRole.KhachHang))
+                if (!await _roleManager.RoleExistsAsync(AppRole.Admin))
                 {
-                    await _roleManager.CreateAsync(new IdentityRole(AppRole.KhachHang));
+                    await _roleManager.CreateAsync(new IdentityRole(AppRole.Admin));
                 }
-                    await _userManager.AddToRoleAsync(user, AppRole.KhachHang);
+                    await _userManager.AddToRoleAsync(user, AppRole.Admin);
                 
                 
             }

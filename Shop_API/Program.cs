@@ -33,7 +33,7 @@ builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 
 builder.Services.AddScoped<UserManager<NguoiDung>>();
 builder.Services.AddScoped<SignInManager<NguoiDung>>();
-
+builder.Services.AddScoped<ISanPhamRepository, SanPhamRepository>();
 
 builder.Services.AddAuthentication(options =>
 {
