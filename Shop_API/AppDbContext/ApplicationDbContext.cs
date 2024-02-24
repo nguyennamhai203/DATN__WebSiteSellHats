@@ -17,7 +17,9 @@ namespace Shop_API.AppDbContext
 
         public virtual DbSet<SanPham> SanPhams { get; set; }
         public virtual DbSet<NguoiDung> NguoiDungs { get; set; }
-       
-
+        public virtual DbSet<ChatLieu> ChatLieus { get; set; }
+        public virtual DbSet<ChiTietSanPham> ChiTietSanPhams { get; set; }
+        public virtual DbSet<ChiTietKhuyenMai> ChiTietKhuyenMais { get; set; }
+        public virtual DbSet<ThongKe> ThongKes { get; set; }
     }
 }

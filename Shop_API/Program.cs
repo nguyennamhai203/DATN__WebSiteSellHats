@@ -34,7 +34,10 @@ builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<UserManager<NguoiDung>>();
 builder.Services.AddScoped<SignInManager<NguoiDung>>();
 builder.Services.AddScoped<ISanPhamRepository, SanPhamRepository>();
-
+builder.Services.AddScoped<IChatLieuRepository, ChatLieuRepository>();
+builder.Services.AddScoped<IChiTietKhuyenMaiRepository, ChiTietKhuyenMaiRepository>();
+builder.Services.AddScoped<IChiTietSanPhamRepository, ChiTietSanPhamRepository>();
+builder.Services.AddScoped<IThongKeRepository, ThongKeRepository>();
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
