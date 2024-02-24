@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT\\DATN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\controllers\\chitietsanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\controllers\\chitietsanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\controllers\\chitietkhuyenmaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\controllers\\chitietkhuyenmaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\controllers\\chatlieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\controllers\\chatlieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\appdbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\appdbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|d:\\fpt\\datn\\shop_api\\repository\\irepository\\ichatlieurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\irepository\\ichatlieurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\repository\\sanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\sanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\repository\\thongkerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\thongkerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\repository\\chatlieurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\chatlieurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CAF8836-2705-4DB0-81D9-0A1E63A502A2}|Shop_Models\\Shop_Models.csproj|D:\\FPT\\DATN\\shop_models\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CAF8836-2705-4DB0-81D9-0A1E63A502A2}|Shop_Models\\Shop_Models.csproj|solutionrelative:shop_models\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\repository\\irepository\\ichitietkhuyenmairepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\irepository\\ichitietkhuyenmairepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\repository\\irepository\\isanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\irepository\\isanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\repository\\chitietsanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\chitietsanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\repository\\chitietkhuyenmairepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\chitietkhuyenmairepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\repository\\irepository\\ichitietsanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\irepository\\ichitietsanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|D:\\FPT\\DATN\\shop_api\\repository\\irepository\\ithongkerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9BB0D3-DA17-468F-A8E5-8D995AA4DF4D}|Shop_API\\Shop_API.csproj|solutionrelative:shop_api\\repository\\irepository\\ithongkerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CAF8836-2705-4DB0-81D9-0A1E63A502A2}|Shop_Models\\Shop_Models.csproj|D:\\FPT\\DATN\\shop_models\\entities\\chitietsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CAF8836-2705-4DB0-81D9-0A1E63A502A2}|Shop_Models\\Shop_Models.csproj|solutionrelative:shop_models\\entities\\chitietsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CAF8836-2705-4DB0-81D9-0A1E63A502A2}|Shop_Models\\Shop_Models.csproj|D:\\FPT\\DATN\\shop_models\\entities\\chatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CAF8836-2705-4DB0-81D9-0A1E63A502A2}|Shop_Models\\Shop_Models.csproj|solutionrelative:shop_models\\entities\\chatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CAF8836-2705-4DB0-81D9-0A1E63A502A2}|Shop_Models\\Shop_Models.csproj|D:\\FPT\\DATN\\shop_models\\heplers\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CAF8836-2705-4DB0-81D9-0A1E63A502A2}|Shop_Models\\Shop_Models.csproj|solutionrelative:shop_models\\heplers\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 495,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\AppDbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Shop_API\\AppDbContext\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\AppDbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Shop_API\\AppDbContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:30:12.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IChatLieuRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\IRepository\\IChatLieuRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\IRepository\\IChatLieuRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\IRepository\\IChatLieuRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\IRepository\\IChatLieuRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:23:24.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Shop_API\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:14:34.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Controllers\\SanPhamController.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "Shop_API\\Controllers\\SanPhamController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:14:34.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_Models\\Dto\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "Shop_Models\\Dto\\ResponseDto.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_Models\\Dto\\ResponseDto.cs",
+              "RelativeToolTip": "Shop_Models\\Dto\\ResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:14:33.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatLieuController.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Controllers\\ChatLieuController.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Controllers\\ChatLieuController.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Controllers\\ChatLieuController.cs",
+              "RelativeToolTip": "Shop_API\\Controllers\\ChatLieuController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:43:00.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTietKhuyenMaiController.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Controllers\\ChiTietKhuyenMaiController.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Controllers\\ChiTietKhuyenMaiController.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Controllers\\ChiTietKhuyenMaiController.cs",
+              "RelativeToolTip": "Shop_API\\Controllers\\ChiTietKhuyenMaiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T16:35:53.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChiTietSanPhamController.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Controllers\\ChiTietSanPhamController.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Controllers\\ChiTietSanPhamController.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Controllers\\ChiTietSanPhamController.cs",
+              "RelativeToolTip": "Shop_API\\Controllers\\ChiTietSanPhamController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T16:18:53.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IChiTietKhuyenMaiRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\IRepository\\IChiTietKhuyenMaiRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\IRepository\\IChiTietKhuyenMaiRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\IRepository\\IChiTietKhuyenMaiRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\IRepository\\IChiTietKhuyenMaiRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T16:22:26.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Program.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Program.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Program.cs",
+              "RelativeToolTip": "Shop_API\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACUAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:14:34.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SanPhamRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\SanPhamRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\SanPhamRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\SanPhamRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\SanPhamRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:14:34.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatLieuRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\ChatLieuRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\ChatLieuRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\ChatLieuRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\ChatLieuRepository.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAG0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:26:40.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThongKeRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\ThongKeRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\ThongKeRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\ThongKeRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\ThongKeRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T16:25:29.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISanPhamRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\IRepository\\ISanPhamRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\IRepository\\ISanPhamRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\IRepository\\ISanPhamRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\IRepository\\ISanPhamRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:14:34.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ThongKeController.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Controllers\\ThongKeController.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Controllers\\ThongKeController.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Controllers\\ThongKeController.cs",
+              "RelativeToolTip": "Shop_API\\Controllers\\ThongKeController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T16:49:13.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\AccountRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\AccountRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\AccountRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowDoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:14:34.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChiTietKhuyenMaiRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\ChiTietKhuyenMaiRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\ChiTietKhuyenMaiRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\ChiTietKhuyenMaiRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\ChiTietKhuyenMaiRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAGoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T16:25:50.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChiTietSanPhamRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\ChiTietSanPhamRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\ChiTietSanPhamRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\ChiTietSanPhamRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\ChiTietSanPhamRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAHAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:52:22.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\appsettings.json",
+              "RelativeDocumentMoniker": "Shop_API\\appsettings.json",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\appsettings.json",
+              "RelativeToolTip": "Shop_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-24T16:55:37.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IChiTietSanPhamRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\IRepository\\IChiTietSanPhamRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\IRepository\\IChiTietSanPhamRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\IRepository\\IChiTietSanPhamRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\IRepository\\IChiTietSanPhamRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:50:10.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IThongKeRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_API\\Repository\\IRepository\\IThongKeRepository.cs",
+              "RelativeDocumentMoniker": "Shop_API\\Repository\\IRepository\\IThongKeRepository.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_API\\Repository\\IRepository\\IThongKeRepository.cs",
+              "RelativeToolTip": "Shop_API\\Repository\\IRepository\\IThongKeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T16:22:44.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChiTietSanPham.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_Models\\Entities\\ChiTietSanPham.cs",
+              "RelativeDocumentMoniker": "Shop_Models\\Entities\\ChiTietSanPham.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_Models\\Entities\\ChiTietSanPham.cs",
+              "RelativeToolTip": "Shop_Models\\Entities\\ChiTietSanPham.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:56:28.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChatLieu.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_Models\\Entities\\ChatLieu.cs",
+              "RelativeDocumentMoniker": "Shop_Models\\Entities\\ChatLieu.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_Models\\Entities\\ChatLieu.cs",
+              "RelativeToolTip": "Shop_Models\\Entities\\ChatLieu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:41:21.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "D:\\FPT\\DATN\\Shop_Models\\Heplers\\AppRole.cs",
+              "RelativeDocumentMoniker": "Shop_Models\\Heplers\\AppRole.cs",
+              "ToolTip": "D:\\FPT\\DATN\\Shop_Models\\Heplers\\AppRole.cs",
+              "RelativeToolTip": "Shop_Models\\Heplers\\AppRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:14:34.046Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 789,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
