@@ -9,7 +9,7 @@ namespace Shop_API.AppDbContext
     {
         public ApplicationDbContext()
         {
-            
+
         }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
@@ -17,7 +17,11 @@ namespace Shop_API.AppDbContext
 
         public virtual DbSet<SanPham> SanPhams { get; set; }
         public virtual DbSet<NguoiDung> NguoiDungs { get; set; }
-       
+        public virtual DbSet<GioHangChiTiet> GioHangChiTiets { get; set; }
+        public virtual DbSet<GioHang> GioHangs { get; set; }
+        public virtual DbSet<ChiTietSanPham> ChiTietSanPhams { get; set; }
+        public virtual DbSet<Khuyenmai> KhuyenMais { get; set; }
+
 
     }
 }

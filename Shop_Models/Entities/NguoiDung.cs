@@ -12,13 +12,15 @@ namespace Shop_Models.Entities
     [Table("NguoiDung")]
     public class NguoiDung : IdentityUser
     {
-        public string? MaNguoiDung { get; set; } 
+        public Guid Id { get; set; }
+        public string? MaNguoiDung { get; set; }
         //public string? Password { get; set; } 
         public int TrangThai { get; set; }
-        public string? TenNguoiDung { get; set; } 
-        public string? SoDienThoai { get; set; }    
-        public string? DiaChi { get; set; } 
+        public string? TenNguoiDung { get; set; }
+        public string? SoDienThoai { get; set; }
+        public string? DiaChi { get; set; }
         public bool? GioiTinh { get; set; }
+
 
     }
 }

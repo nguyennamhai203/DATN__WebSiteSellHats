@@ -16,9 +16,9 @@ namespace Shop_Models.Entities
         public Guid GioHangId { get; set; }
         public Guid ChiTietSanPhamId { get; set; }
         public int SoLuong { get; set; }
-        public int GiaBan { get; set; }
-        public int GiaGoc { get; set; }
-        public int TrangThai { get; set; }
+        public double GiaBan { get; set; } /*int*/
+        public double GiaGoc { get; set; }/*int*/
+        public int TrangThai { get; set; }/*int*/
         public virtual GioHang? GioHang { get; set; }
         public virtual ChiTietSanPham? ChiTietSanPham { get; set; }
 

@@ -197,6 +197,31 @@ namespace Shop_API.Migrations
                     b.ToTable("ChatLieu");
                 });
 
+            modelBuilder.Entity("Shop_Models.Entities.ChiTietKhuyenMai", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("ChiTietSanPhamId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("KhuyenMaiId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Mota")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TrangThai")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("KhuyenMaiId");
+
+                    b.ToTable("ChiTietKhuyenMai");
+                });
+
             modelBuilder.Entity("Shop_Models.Entities.ChiTietSanPham", b =>
                 {
                     b.Property<Guid>("Id")
@@ -258,19 +283,19 @@ namespace Shop_API.Migrations
 
             modelBuilder.Entity("Shop_Models.Entities.GioHang", b =>
                 {
-                    b.Property<Guid>("IdNguoiDung")
+                    b.Property<Guid>("NguoiDungId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("NguoiDungId")
+                    b.Property<string>("NguoiDungId1")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("TrangThai")
                         .HasColumnType("int");
 
-                    b.HasKey("IdNguoiDung");
+                    b.HasKey("NguoiDungId");
 
-                    b.HasIndex("NguoiDungId");
+                    b.HasIndex("NguoiDungId1");
 
                     b.ToTable("GioHang");
                 });
@@ -284,11 +309,11 @@ namespace Shop_API.Migrations
                     b.Property<Guid>("ChiTietSanPhamId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("GiaBan")
-                        .HasColumnType("int");
+                    b.Property<double>("GiaBan")
+                        .HasColumnType("float");
 
-                    b.Property<int>("GiaGoc")
-                        .HasColumnType("int");
+                    b.Property<double>("GiaGoc")
+                        .HasColumnType("float");
 
                     b.Property<Guid>("GioHangId")
                         .HasColumnType("uniqueidentifier");
@@ -393,6 +418,38 @@ namespace Shop_API.Migrations
                     b.HasIndex("HoaDonId");
 
                     b.ToTable("HoaDonChiTiet");
+                });
+
+            modelBuilder.Entity("Shop_Models.Entities.Khuyenmai", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("LoaiHinhKhuyenMai")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MaKhuyenMai")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double?>("MucGiam")
+                        .HasColumnType("float");
+
+                    b.Property<DateTime?>("NgayBatDau")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("NgayKetThuc")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("TenKhuyenMai")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("TrangThai")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Khuyenmai");
                 });
 
             modelBuilder.Entity("Shop_Models.Entities.Loai", b =>
@@ -604,6 +661,7 @@ namespace Shop_API.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("NguoiDungId1")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("TrangThai")
@@ -785,6 +843,17 @@ namespace Shop_API.Migrations
                     b.Navigation("ChiTietSanPham");
                 });
 
+            modelBuilder.Entity("Shop_Models.Entities.ChiTietKhuyenMai", b =>
+                {
+                    b.HasOne("Shop_Models.Entities.Khuyenmai", "Khuyenmai")
+                        .WithMany("ChiTietKhuyenMais")
+                        .HasForeignKey("KhuyenMaiId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Khuyenmai");
+                });
+
             modelBuilder.Entity("Shop_Models.Entities.ChiTietSanPham", b =>
                 {
                     b.HasOne("Shop_Models.Entities.ChatLieu", "ChatLieu")
@@ -828,7 +897,7 @@ namespace Shop_API.Migrations
                 {
                     b.HasOne("Shop_Models.Entities.NguoiDung", "NguoiDung")
                         .WithMany()
-                        .HasForeignKey("NguoiDungId");
+                        .HasForeignKey("NguoiDungId1");
 
                     b.Navigation("NguoiDung");
                 });
@@ -911,7 +980,9 @@ namespace Shop_API.Migrations
 
                     b.HasOne("Shop_Models.Entities.NguoiDung", "NguoiDung")
                         .WithMany()
-                        .HasForeignKey("NguoiDungId1");
+                        .HasForeignKey("NguoiDungId1")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("ChiTietSanPham");
 
@@ -963,6 +1034,11 @@ namespace Shop_API.Migrations
                     b.Navigation("PhuongThucTTChiTiet");
 
                     b.Navigation("ThongKes");
+                });
+
+            modelBuilder.Entity("Shop_Models.Entities.Khuyenmai", b =>
+                {
+                    b.Navigation("ChiTietKhuyenMais");
                 });
 
             modelBuilder.Entity("Shop_Models.Entities.Loai", b =>
